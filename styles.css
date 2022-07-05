@@ -1,0 +1,27 @@
+.bg-color-tan {
+    background-color: hsla(177, 68%, 64%, 1);
+}
+
+.bg-color-orange {
+    background-color: hsla(12, 94%, 65%, 1);
+}
+
+.bg-color-gold {
+    background-color: hsla(33, 100%, 70%, 1);
+}
+
+.bg-color-white {
+    background-color: hsla(20, 33%, 98%, 1);
+}
+
+.bg-color-black {
+    background-color: hsla(244, 23%, 12%, 1);
+}
+
+.text-color-white {
+    color:hsla(20, 33%, 98%, 1);
+}
+
+.text-color-black {
+    color:hsla(244, 23%, 12%, 1);
+}
