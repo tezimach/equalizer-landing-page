@@ -25,3 +25,28 @@
 .text-color-black {
     color:hsla(244, 23%, 12%, 1);
 }
+
+.heading-1 {
+font-family: "IBM Plex Sans KR", sans-serif;
+font-style: normal;
+font-weight: 700;
+}
+
+.body-1 {
+font-family: "IBM Plex Sans KR", sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.ios-button:hover {
+    background-color:hsla(177, 68%, 64%, 1):
+}
+
+.android-button:hover {
+    background-color:hsla(33, 100%, 70%, 1):
+}
+
+.logo:hover {
+    background-color:hsla(12, 94%, 65%, 1); 
+}
