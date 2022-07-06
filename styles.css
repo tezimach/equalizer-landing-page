@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background-image: url(./starter-code/assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
 }
 ol, ul {
 	list-style: none;
@@ -57,15 +58,40 @@ table {
 }
 
 .bg-color-gold {
+    all: unset;
     background-color: hsla(33, 100%, 70%, 1);
+
 }
 
 .bg-color-white {
+    all: unset;
     background-color: hsla(20, 33%, 98%, 1);
+    border-radius: 12px;
+    height: 61px;
+    text-align: center;
+    color:hsla(244, 23%, 12%, 1);
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
 }
 
 .bg-color-black {
+    all: unset;
     background-color: hsla(244, 23%, 12%, 1);
+    border-radius: 12px;
+    height: 61px;
+    text-align: center;
+    margin-bottom: 16px;
+    color:hsla(20, 33%, 98%, 1);
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
 }
 
 .text-color-white {
@@ -92,7 +118,7 @@ table {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    margin: 48px 9.6% 12px 9.6%;
+    margin-bottom: 12px;
 }
 
 .body-1 {
@@ -110,7 +136,7 @@ table {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    margin: 0px 9.6% 36px 9.6%;
+    margin-bottom: 36px;
 }
 
 .logo {
@@ -120,14 +146,15 @@ table {
 .main-container {
     width: 100%;
     background-image: url(./starter-code/assets/bg-pattern-2.svg);
-    background-size: contain;
+    background-size: 75%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-color:hsla(244, 23%, 12%, 1);
     border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 64px;
 }
 
 .main-container img {
@@ -135,17 +162,60 @@ table {
     margin: -98px 0px 48px 0px;
 }
 
+.orange-container {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 9.6% 48px 9.6%;
+}
+
+.price-container {
+    margin-bottom: 36px;
+}
+
 .price-container .heading-2 {
     font-size: 65px;
     line-height: 52px;
-    margin-right: 0px;
 }
 
 .price-container .body-2 {
     font-size: 20px;
     line-height: 32px;
-    margin: 0px;
 }
+
+.button-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.footer {
+    padding: 0px 6.4% 80px 6.4%;
+}
+.footer .logo{
+    margin: 0px 0px 32px 0px;
+}
+
+.footer .body-1{
+    margin: 0px 5% 64px 0px;
+}
+
+.body-1 a {
+    font-weight: 700;
+}
+
+.contact {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-logo {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /*
 .ios-button:hover {
     background-color:hsla(177, 68%, 64%, 1):
